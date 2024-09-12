@@ -6,8 +6,11 @@ body{font-family: "lato", sans-serif;}
 
 .headerWrapper .top-strip{padding: 8px 0px;}
 .headerWrapper .top-strip p{color: #fff; font-size: 12px;}
+
 .headerWrapper .header{width: 100%; height: auto; padding: 10px;}
 .logoWrapper{width: 100%;}
-.headerWrapper .header .part2 .countryDrop{width: 150px; height: 80px; min-width: 150px;}
+
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px;}
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important; border: 1px solid rgba(0, 0, 0, 0, 2);}
 .headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important;}
-.headerWrapper .header .part2 .countryDrop .name{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important;}
+.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important; font-weight: 700;}
