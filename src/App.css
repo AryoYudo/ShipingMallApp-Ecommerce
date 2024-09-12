@@ -9,3 +9,5 @@ body{font-family: "lato", sans-serif;}
 .headerWrapper .header{width: 100%; height: auto; padding: 10px;}
 .logoWrapper{width: 100%;}
 .headerWrapper .header .part2 .countryDrop{width: 150px; height: 80px; min-width: 150px;}
+.headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important;}
+.headerWrapper .header .part2 .countryDrop .name{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important;}
