@@ -10,7 +10,7 @@ body{font-family: "lato", sans-serif;}
 .headerWrapper .header{width: 100%; height: auto; padding: 10px;}
 .logoWrapper{width: 100%;}
 
-.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px;}
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px; padding: 10px 10px;}
 .headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important; border: 1px solid rgba(0, 0, 0, 0, 2);}
-.headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important;}
-.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 7) !important; font-weight: 700;}
+.headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 5) !important; line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: rgba(0,0, 0, 0, 6) !important; font-weight: 700; line-height: 16px;}
