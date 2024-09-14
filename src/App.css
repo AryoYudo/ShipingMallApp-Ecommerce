@@ -23,20 +23,23 @@ body{font-family: "lato", sans-serif;}
 
 .logo-wrapper {
     text-align: center;
+    margin-right: 1px; /* Menambahkan margin kanan kecil untuk mendekatkan logo dengan dropdown */
+}
+
+.country-drop {
+    width: 150px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    margin-left: 0px; /* Menghapus margin kiri agar lebih dekat dengan logo */
 }
 
 .part-2 {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start; /* Mengatur agar konten di dalamnya mulai dari kiri */
 }
 
-.country-drop {
-    width: 150px;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 7px;
-}
 
 .header-search {
     flex-grow: 1;

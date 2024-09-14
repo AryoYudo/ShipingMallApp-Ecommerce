@@ -15,7 +15,7 @@ const Header = () => {
             <div className="header">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="logo-wrapper">
+                        <div className="logo-wrapper col-sm-1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48">
                                 <path fill="#f4511e" d="M36.683,43H11.317c-2.136,0-3.896-1.679-3.996-3.813l-1.272-27.14C6.022,11.477,6.477,11,7.048,11h33.904c0.571,0,1.026,0.477,0.999,1.047l-1.272,27.14C40.579,41.321,38.819,43,36.683,43z"></path>
                                 <path fill="#f4511e" d="M32.5,11.5h-2C30.5,7.364,27.584,4,24,4s-6.5,3.364-6.5,7.5h-2C15.5,6.262,19.313,2,24,2s8.5,4.262,8.5,9.5z"></path>
@@ -23,7 +23,7 @@ const Header = () => {
                             </svg>
                         </div>
 
-                        <div className="part-2 ms-2">
+                        <div className="col-sm-5 align-items-center part-2">
                             <CountryDrop className="country-drop"/>
                             
                             {/* Header Start Search */}
