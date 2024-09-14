@@ -48,7 +48,7 @@ body{font-family: "lato", sans-serif;}
     display: flex;
     align-items: center;
     background-color: #f3f4f7;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-left: 20px;
 }
 
@@ -65,5 +65,6 @@ body{font-family: "lato", sans-serif;}
     opacity: 0.7;
     cursor: pointer;
 }
+
 
 

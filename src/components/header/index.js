@@ -2,6 +2,8 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import CountryDrop from '../countryDropdown/index_DropDown'; // Tetap digunakan
 import { IoSearch } from "react-icons/io5";
+import Account from '../profile/indexProfile';
+import ShoppingCart from '../shoppingCart/indexShopping';
 
 const Header = () => {
     return (
@@ -23,7 +25,7 @@ const Header = () => {
                             </svg>
                         </div>
 
-                        <div className="col-sm-5 align-items-center part-2">
+                        <div className="col-sm-10 align-items-center part-2">
                             <CountryDrop className="country-drop"/>
                             
                             {/* Header Start Search */}
@@ -32,6 +34,19 @@ const Header = () => {
                                 <IoSearch />
                             </div>
                             {/* Header End Search */}
+                            
+                            {/* Header Start Account */}
+                            <div className='ms-5'>
+                            <Account className="header-account"/>
+                            </div>
+                            {/* Header End Account */}
+                            
+                            {/* Header Start Cart */}
+                            <div className='ms-5'>
+                                <ShoppingCart className="header-shopping" />
+                            </div>
+
+
                         </div>
                     </div> 
                 </div>
