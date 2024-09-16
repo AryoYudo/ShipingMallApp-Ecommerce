@@ -6,6 +6,10 @@ body{font-family: "lato", sans-serif;}
     background-color: #FF5722;
 }
 
+.container {
+    max-width: 85%;
+}
+
 .header-wrapper .top-strip {
     padding: 8px 0;
 }
