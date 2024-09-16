@@ -65,5 +65,38 @@ body{font-family: "lato", sans-serif;}
     cursor: pointer;
 }
 
+button {
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+}
+  
+button:hover {
+    transform: scale(0.9); /* Membesarkan tombol saat di-hover */
+    transition: transform 0.4s ease-in-out; /* Menambahkan animasi pada transform */
+}
+  
+  button:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px; /* Ukuran lingkaran */
+    height: 40px; /* Ukuran lingkaran */
+    background-color: #FF5722; /* Warna lingkaran oranye */
+    border-radius: 50%; /* Membuatnya menjadi lingkaran */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Agar berada di belakang ikon */
+    transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out;
+  }
+  
+  button:hover .header-shopping, 
+  button:hover .header-account {
+    color: white; /* Mengubah warna ikon menjadi putih saat di-hover */
+  }
+  
+  
+
 
 
