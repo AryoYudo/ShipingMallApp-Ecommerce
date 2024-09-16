@@ -28,12 +28,14 @@ const Header = () => {
 
                             <CountryDrop className="country-drop" />
 
-                            <div className="header-search">
+                            <div className="header-search btn-search">
                                 <input type="text" placeholder="Search..." />
-                                <IoSearch />
+                                <button type="button" className="" style={{ border: 'none', background: 'none' }}>  
+                                    <IoSearch />
+                                </button>
                             </div>
 
-                            <div className="ms-5 position-relative">
+                            <div className="ms-5 position-relative btn-hover">
                                 <button type="button" style={{ border: 'none', background: 'none' }}>
                                     <ShoppingCart className="header-shopping" />
                                 </button>
@@ -42,7 +44,7 @@ const Header = () => {
                                 </span>
                             </div>
 
-                            <div className="ms-5">
+                            <div className="ms-5 btn-hover">
                                 <button type="button" style={{ border: 'none', background: 'none' }}>
                                     <Account className="header-account" />
                                 </button>

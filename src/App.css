@@ -65,36 +65,48 @@ body{font-family: "lato", sans-serif;}
     cursor: pointer;
 }
 
-button {
+.btn-hover {
     position: relative;
+}
+
+.btn-hover button {
     background: none;
     border: none;
     outline: none;
 }
-  
-button:hover {
-    transform: scale(0.9); /* Membesarkan tombol saat di-hover */
-    transition: transform 0.4s ease-in-out; /* Menambahkan animasi pada transform */
+
+.btn-hover .header-shopping, 
+.btn-hover .header-account {
+    color: transparent; /* Mengatur warna ikon menjadi transparan */
+    transition: color 0.2s ease-in-out; /* Menambahkan transisi warna ikon */
 }
-  
-  button:hover::before {
+
+.btn-hover:hover .header-shopping, 
+.btn-hover:hover .header-account {
+    color: white; /* Mengubah warna ikon menjadi putih saat di-hover */
+}
+
+.btn-hover::before {
     content: '';
     position: absolute;
     top: 50%;
     left: 50%;
     width: 40px; /* Ukuran lingkaran */
     height: 40px; /* Ukuran lingkaran */
-    background-color: #FF5722; /* Warna lingkaran oranye */
-    border-radius: 50%; /* Membuatnya menjadi lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
     transform: translate(-50%, -50%);
     z-index: -1; /* Agar berada di belakang ikon */
     transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, height 0.2s ease-in-out;
-  }
-  
-  button:hover .header-shopping, 
-  button:hover .header-account {
-    color: white; /* Mengubah warna ikon menjadi putih saat di-hover */
-  }
+}   
+
+.btn-hover:active::before {
+    width: 50px; /* Membesarkan lingkaran saat tombol di-*click* */
+    height: 50px; /* Membesarkan lingkaran saat tombol di-*click* */
+    background-color: rgba(255, 87, 34, 0.5); /* Membuat lingkaran lebih transparan saat tombol di-*click* */
+}
+
+
+
   
   
 
