@@ -25,11 +25,6 @@ body{font-family: "lato", sans-serif;}
     padding: 10px 0;
 }
 
-.logo-wrapper {
-    text-align: center;
-    margin-right: 1px; /* Menambahkan margin kanan kecil untuk mendekatkan logo dengan dropdown */
-}
-
 .country-drop {
     width: 150px;
     padding: 15px;
